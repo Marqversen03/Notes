@@ -1,10 +1,13 @@
 
 
-Deklaration 
-`````c++
-friend bool operator==(const MyClass& Left, const MyClass& Right);
 
-friend bool operator!=(const MyClass& Left, const MyClass& Right);
+
+
+free - Deklaration 
+`````c++
+bool operator==(const MyClass& Left, const MyClass& Right);
+
+bool operator!=(const MyClass& Left, const MyClass& Right);
 `````
 
 Implementering 

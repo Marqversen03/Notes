@@ -3,15 +3,11 @@ virtuel funktionen er en funktion der står top men blir overflowet af klassen d
 ### Implemanterin
 `````c++
 class Amplifier {
-
 public:
-
     virtual void amplify(Signal& signal)=0;
-
     virtual ~Amplifier() = default;
 
 };
-
 `````
 
 Filer der overwriter funktionen:
