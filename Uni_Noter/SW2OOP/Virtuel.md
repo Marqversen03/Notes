@@ -1,6 +1,6 @@
 virtuel funktionen er en funktion der står top men blir overflowet af klassen der kalder den. den implementering sker i en seperat h file
 
-### Implemanterin
+### .h file
 `````c++
 class Amplifier {
 public:
