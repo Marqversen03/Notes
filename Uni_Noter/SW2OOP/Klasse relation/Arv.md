@@ -1,5 +1,5 @@
 En klasse er arv'er egenskaber fra en anden klasse.  
-
+![[Pasted image 20260614224207.png]]
 Deklaration 
 `````c++
 class Animal {
@@ -31,3 +31,5 @@ Animal* a = new Dog();
 a->speak(); // Dog::speak() — polymorfisme
 delete a;
 `````
+
+Vis override bliver markered rødt er det formeneligt fordi de to funktioner ikke matcher altså superklassen og arven. tjek ==Const==
