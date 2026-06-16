@@ -25,3 +25,6 @@ void BroadBandAmplifier::amplify(Signal& signal) {
 //bla bla bla
 }
 `````
+
+
+==Er der en fejl ved override stemmer de ikke overens. tjek din arv og const. det typisk fordi du har fjernet en const.

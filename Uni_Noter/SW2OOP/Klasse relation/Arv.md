@@ -5,7 +5,7 @@ Deklaration
 class Animal {
 public:
     virtual void speak() = 0; // ren virtuel
-    virtual ~Animal() {}
+    virtual ~Animal() = default;
 };
 
 class Dog : public Animal {
